@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>呼朋引宠</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background: url('logo.jpg') no-repeat center center fixed;
+      background-size: contain;
+      background-position: center;
+      text-align: center;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.6);
+      color: #fff;
+      padding: 10px;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    nav li {
+      display: inline;
+      margin-right: 10px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #fff;
+    }
+    h1 {
+      color: transparent; /* 让文本透明 */
+      font-size: 36px;
+      display: inline-block;
+    }
+    h1 span {
+      color: #f00; /* 红色 */
+      animation: colorchange 5s infinite; /* 添加颜色变化动画 */
+    }
+    footer {
+      background: rgba(0, 0, 0, 0.6);
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+    /* Font Awesome 图标样式 */
+    .fa {
+      font-size: 20px;
+      margin-right: 5px;
+    }
+    /* 打字机效果 */
+    .typewriter-text {
+      display: inline-block;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: .15em solid orange;
+      margin: 0 auto;
+      letter-spacing: .15em;
+      animation: typing 2s steps(30, end), blink-caret .5s step-end infinite;
+    }
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: orange; }
+    }
+    @keyframes colorchange {
+      0% { color: #f00; } /* 红色 */
+      25% { color: #0f0; } /* 绿色 */
+      50% { color: #00f; } /* 蓝色 */
+      75% { color: #ff0; } /* 黄色 */
+      100% { color: #f0f; } /* 紫色 */
+    }
+  </style>
+</head>
+<body>
+<header>
+  <nav>
+    <ul>
+      <li><a href="index.html"><i class="fa fa-home"></i>首页</a></li>
+      <li><a href="store.html"><i class="fa fa-shopping-bag"></i>商场</a></li>
+      <li><a href="messages.html"><i class="fa fa-envelope"></i>消息</a></li>
+      <li><a href="my.html"><i class="fa fa-user"></i>我的</a></li>
+    </ul>
+  </nav>
+</header>
+<h1><span class="typewriter-text"><span>呼</span><span>朋</span><span>引</span><span>宠</span></span></br><span>大</span><span>学</span><span>生</span><span>宠</span><span>物</span><span>关</span><span>怀</span><span>平</span><span>台</span></span></h1>
+<footer>
+  <p>版权所有 © 2023 呼朋引宠</p>
+</footer>
+</body>
+</html>
